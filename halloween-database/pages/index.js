@@ -75,7 +75,7 @@ export default function Home() {
               onClick={() => handleDecrease(index + 1)}
               className="bg-red-500 hover:bg-red-700 text-white text-center py-2 px-4 rounded"
             >
-              Add Points
+              Remove Points
             </button>
           </div>
         ))
