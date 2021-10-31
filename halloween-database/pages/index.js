@@ -5,32 +5,32 @@ export default function Home() {
     {
       id: 1,
       points: 0,
-      name: "-",
+      name: "",
     },
     {
       id: 2,
       points: 0,
-      name: "-",
+      name: "",
     },
     {
       id: 3,
       points: 0,
-      name: "-",
+      name: "",
     },
     {
       id: 4,
       points: 0,
-      name: "-",
+      name: "",
     },
     {
       id: 5,
       points: 0,
-      name: "-",
+      name: "",
     },
     {
       id: 6,
       points: 0,
-      name: "-",
+      name: "",
     },
   ];
   const [data, setData] = useState(teams);
@@ -101,6 +101,7 @@ export default function Home() {
             </button>
             <input
               type="text"
+              id={index}
               value={name}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               placeholder="change name..."
